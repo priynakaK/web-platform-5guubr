@@ -1,0 +1,29 @@
+.container {
+  height: 600px;
+
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  /* flex-flow: row-reverse; */
+  vertical-align: bottom;
+  text-align: center;
+  justify-content: center;
+}
+.item {
+  border: 1px solid red;
+  height: 200px;
+  width: 250px;
+  margin: 2px 2px 2px 2px;
+  padding: 20px;
+}
+#item1 {
+  order: 4;
+  flex-grow: 2;
+}
+#item2 {
+  order: 2;
+  background-color: aliceblue;
+  flex-grow: 3;
+  flex-basis: 200px;
+}
